@@ -1,7 +1,7 @@
 # db-migrate-cassandra
-Cassanda migration using CQLSH  for node DB migration
+Cassanda migration using CQLSH for node DB migration
 
-This module is based on node-db-migrate to support migration for Cassandra database, using node cassadnra-driver. This has to be installed as a dependency for db-migrate.
+This module is based on node-db-migrate to support migration for Cassandra database, using node cassandra-driver. This has to be installed as a dependency for db-migrate.
 
 ## Installation
 ```
@@ -10,7 +10,7 @@ npm install db-migrate-cassandra
 ```
 
 ## Usage
-Set up your database.json as mentoned in `database.json.example`
+Set up your database.json as mentioned in `database.json.example`
 
 ## Supported Migrations
 * Create Table
@@ -25,7 +25,7 @@ Set up your database.json as mentoned in `database.json.example`
  };
  ```
  
-  Supports multiple parimary keys
+  Supports multiple primary keys
 
   ```js
   'primary_key': '(name, age)'
